@@ -3,11 +3,10 @@ name = "{{project-name}}"
 version = "0.1.0"
 edition = "2021"
 authors = ["{{authors}}"]
-description = "a binary that prints 🦀"
-license = "MIT"
+description = "{{description}}"
 
 [lints.rust]
-unsafe_code = "forbid"
+unsafe_code = "deny"
 
 [lints.clippy]
 enum_glob_use = "deny"
